@@ -1,0 +1,22 @@
+/****************************************************
+AGNAL ROY                 ROLL NO:3
+S3IT                      DATE:
+          FACTORIAL
+******************************************************/
+
+Num=int(input("Enter a no:"))
+Factorial = 1
+if Num<0:
+   print("Factorial does not exist for negative no:")
+elif Num==0:
+   print("The factorial of 0 is 1")
+else:
+   for i in range(1,Num+1):
+       Factorial=Factorial*i
+   print("The Factorial of",Num,"is",Factorial)
+
+/*SAMPLE OUTPUT*/
+/*************************************
+Enter a no:7
+The Factorial of 7 is 5040
+****************************************/

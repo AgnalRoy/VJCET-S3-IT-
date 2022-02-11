@@ -1,0 +1,49 @@
+/*******************************************************
+AGNAL ROY                              ROLL NO:3
+S3 IT                                  DATE:29/11/2021
+
+             LINEAR SEARCH
+******************************************************/         
+             
+#include<stdio.h>
+int main()
+{
+	int arr[100],search,c,n;
+	printf("Enter the number of elements in array\n");
+	scanf("%d",&n);
+	printf("Enter %d integer(s)\n",n);
+	for (c=0;c<n;c++)
+		scanf("%d",&arr[c]);
+	printf("Enter a number to search\n");
+	scanf("%d",&search);
+	for (c=0;c<n;c++)
+	{
+		if(arr[c]== search)
+		{
+			printf("%d is present at location %d.\n", search,c+1);
+			break;
+		}
+	}	
+	if (c==n)
+		printf("%d isn't present in the array.\n", search);
+	return 0;
+}
+
+/*SAMPLE OUTPUT*/
+/******************************************
+Enter the number of elements in array
+5
+Enter 5 integer(s)
+3
+8
+5
+9
+7
+Enter a number to search
+7
+7 is present at location 5.
+
+--------------------------------
+Process exited after 13.15 seconds with return value 0
+Press any key to continue . . .
+*****************************************/

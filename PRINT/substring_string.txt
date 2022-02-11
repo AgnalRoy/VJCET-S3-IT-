@@ -1,0 +1,18 @@
+/****************************************************
+AGNAL ROY                 ROLL NO:3
+S3IT                      DATE:
+       SUBSTRING IN A STRING
+******************************************************/
+
+
+str1= input("Enter a string:")
+substr=input("Enter a substring:")
+result=str1.count(substr)
+print("Number of substring occurrences:",result)
+
+/*SAMPLE OUTPUT*/
+/*************************************
+Enter a string:Hello everyone everyone everyone , how are u guys?
+Enter a substring:everyone
+Number of substring occurrences: 3
+*****************************************/

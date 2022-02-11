@@ -1,0 +1,62 @@
+/****************************************************
+AGNAL ROY                 ROLL NO:3
+S3IT                      DATE:
+          MATRICES
+******************************************************/
+
+M1=[]
+M2=[]
+M3=[]
+n=int(input("Enter the no: of rows:"))
+m=int(input("Enter the no: of columns:"))
+print("Enter the values of first matrix:")
+for i in range(0,n):
+	r=[]
+	for j in range(0,m):
+		val=int(input())
+		r.append(val)
+	M1.append(r)
+print("M1=", M1)
+print("Enter the values of second matrix:")
+for i in range (0,n):
+	r=[]
+	for j in range(0,m):
+		val=int(input())
+		r.append(val)
+	M2.append(r)
+print("M2",M2)
+for i in range (0,n):
+	r=[]
+	for j in range(0,m):
+		val = M1[i][j]+M2[i][j]
+		r.append (val)
+	M3.append(r)
+print("the sum of the matrices are:",M3)
+/*SAMPLE OUTPUT*/
+/*************************************
+Enter the no: of rows:3
+Enter the no: of columns:3
+Enter the values of first matrix:
+2
+4
+7
+9
+3
+5
+10
+15
+23
+M1= [[2, 4, 7], [9, 3, 5], [10, 15, 23]]
+Enter the values of second matrix:
+2
+3
+7
+9
+16
+17
+19
+21
+25
+M2 [[2, 3, 7], [9, 16, 17], [19, 21, 25]]
+the sum of the matrices are: [[4, 7, 14], [18, 19, 22], [29, 36, 48]]
+**********************************************************************/

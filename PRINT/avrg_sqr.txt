@@ -1,0 +1,36 @@
+/****************************************************
+AGNAL ROY                 ROLL NO:3
+S3IT                      DATE:
+          AVERAGE AND SQUARE
+******************************************************/
+
+list=[]
+slist=[]
+n= int(input("Enter the size of the list:"))
+print ("Enter the value of the list")
+for x in range (0,n):
+	val=int(input())
+	list.append(val)
+print (list)
+count=0
+for y in list:
+   count=count+y
+for y in  list:
+    square=y**2
+    slist.append(square)
+print("sum=",count)
+print("average=",count/n)
+print("square=",slist)
+
+/*SAMPLE OUTPUT*/
+/*************************************
+Enter the size of the list:3
+Enter the value of the list
+4
+7
+9
+[4, 7, 9]
+sum= 20
+average= 6.666666666666667
+square= [16, 49, 81]
+**********************************/

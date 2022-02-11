@@ -1,0 +1,29 @@
+/****************************************************
+AGNAL ROY                 ROLL NO:3
+S3IT                      DATE:
+          CALCULATOR
+******************************************************/
+
+def calc(a,b):
+	sum=a+b
+	diff=a-b
+	prod=a*b
+	div=a/b
+	print("Sum=:",sum)
+	print("Difference=:",diff)
+	print("Product=:",prod)
+	print("Division=:", div)
+
+a=int(input("Enter the first element:"))
+b=int(input("Ente the second element:"))
+calc(a,b)
+
+/*SAMPLE OUTPUT*/
+/*************************************
+Enter the first element:5
+Ente the second element:7
+Sum=: 12
+Difference=: -2
+Product=: 35
+Division=: 0.7142857142857143
+*************************************/

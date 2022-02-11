@@ -1,0 +1,22 @@
+/****************************************************
+AGNAL ROY                 ROLL NO:3
+S3IT                      DATE:
+        SIMPLE INTEREST
+******************************************************/
+
+
+print("Program to find the simple interest")
+p=int(input("Enter the principle amount:"))
+r=int(input("Enter the the rate of interest:"))
+t=int(input("Enter the time taken at interest:"))
+a=p*(1+r*t)
+print("The final amount to be paid=",a)
+
+/*SAMPLE OUTPUT*/
+/*************************************
+Program to find the simple interest
+Enter the principle amount:2300
+Enter the the rate of interest:34
+Enter the time taken at interest:11
+The final amount to be paid= 862500
+*****************************************/

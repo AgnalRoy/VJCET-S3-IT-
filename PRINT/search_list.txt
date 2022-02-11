@@ -1,0 +1,33 @@
+/****************************************************
+AGNAL ROY                 ROLL NO:3
+S3IT                      DATE:
+
+       SEARCH AN ELEMENT IN LIST
+
+******************************************************/
+
+list=input("Enter the elements in a list")
+print("\n")
+
+key = input("Enter the number to search:")
+ 
+if key in list:
+	print(key, "is present in the list")
+else:
+	print (key,"is not found in the list")
+
+/*SAMPLE OUTPUT*/
+/****************************************
+Enter the elements in a list3,5,6,7,8,9,1
+
+
+Enter the number to search:5
+5 is present in the list
+
+Z:\S3IT\PYTHON>search_list.py
+Enter the elements in a list3,5,6,7,8,9,1
+
+
+Enter the number to search:2
+2 is not found in the list
+*****************************************/
